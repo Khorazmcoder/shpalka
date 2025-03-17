@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematika</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <header>
+        <div class="fans" id="u1-header">Matematika</div>
+        <div class="fans" id="u2-header">Fizika</div>
+        <div class="fans" id="u3-header">Chat</div>
+    </header>
+    <nav>
+        <div class="gridb">
+            <img src="./Algebra/pic/IMG_20250317_193949.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194035.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194043.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194101.jpg" alt=""></div>
+        <div class="gridb">
+            
+            <img src="./Algebra/pic/IMG_20250317_194116.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194345.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194402.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194408.jpg" alt=""></div>
+        <div class="gridb">
+            
+            <img src="./Algebra/pic/IMG_20250317_194411.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194452.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194458.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194505.jpg" alt=""></div>
+        
+        <div class="gridb">
+            <img src="./Algebra/pic/IMG_20250317_194523.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194530.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194535.jpg" alt="">
+            <img src="./Algebra/pic/IMG_20250317_194458.jpg" alt=""></div>
+    </nav>
+    <script>
+        
+        function ket() {
+           window.location.href = "./algebra.html"; 
+        }
+
+        function fiz() {
+            window.location.href = "./fizika.html";
+        }
+
+        function chat() {
+            window.location.href = "./chat.html";
+        }
+
+        document.getElementById("u1-header").addEventListener("click", ket);
+        document.getElementById("u2-header").addEventListener("click", fiz);
+        document.getElementById("u3-header").addEventListener("click", chat);
+        document.getElementById("u1-content").addEventListener("click", ket);
+        document.getElementById("u2-content").addEventListener("click", fiz);
+        document.getElementById("u3-content").addEventListener("click", chat);
+
+    </script>
+</body>
+</html>
